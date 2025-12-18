@@ -2,7 +2,9 @@ import React, { useState } from 'react'
 import { NavBar } from './components/NavBar.jsx';
 import { LoadingScreen } from "./components/LoadingScreen";
 import { MobileMenu } from "./components/MobileMenu";
-import { Home } from './components/sections/home.jsx';
+import { Home } from './components/sections/Home.jsx';
+import { About } from './components/sections/About';
+import { Projects } from './components/sections/Projects'
 import "./index.css";
 import "./App.css";
 
@@ -24,6 +26,8 @@ function App() {
           <NavBar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
           <MobileMenu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
           <Home />
+          <About />
+          <Projects />
       </div>
     </>
   );
