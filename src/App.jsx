@@ -4,7 +4,8 @@ import { LoadingScreen } from "./components/LoadingScreen";
 import { MobileMenu } from "./components/MobileMenu";
 import { Home } from './components/sections/Home.jsx';
 import { About } from './components/sections/About';
-import { Projects } from './components/sections/Projects'
+import { Projects } from './components/sections/Projects';
+import { Contact } from './components/sections/Contact.jsx';
 import "./index.css";
 import "./App.css";
 
@@ -28,6 +29,7 @@ function App() {
           <Home />
           <About />
           <Projects />
+          <Contact />
       </div>
     </>
   );
