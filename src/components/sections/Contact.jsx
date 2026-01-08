@@ -39,6 +39,11 @@ export const Contact = () => {
                     Get In Touch 
                 </h2>
                 <form className="space-y-6" onSubmit={handleSubmit}>
+                    <input
+                        type="hidden"
+                        name="from_name"
+                        value="Kylan Mendoza"
+                    />
                     <div className="relative">
                         <input 
                             type="text" 
