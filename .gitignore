@@ -12,7 +12,10 @@ dist
 dist-ssr
 *.local
 
+# Make sure your .gitignore contains:
 .env
+.env.local
+.env.*.local
 
 # Editor directories and files
 .vscode/*
